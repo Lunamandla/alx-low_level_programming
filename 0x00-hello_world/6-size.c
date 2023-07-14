@@ -5,14 +5,18 @@
  */
 int main(void)
 {
-	int intType;
-	float floatType;
-	char charType;
-	double doubleType;
+	char a;
+	int b;
+	long-int c;
+	long long int d;
+	float f;
+
 	//Evaluating size of variable
-	printf("Size of int: %zu bytes\n", sizeof intType));
-	printf("Size of float: %zu bytes\n", sizeof floatType));
-	printf("Size of char: %zu bytes\n", sizeof charType));
-	printf("Size of double: %zu bytes\n", sizeof doubleType));
-	return (0);
+	
+	printf("Size of char: %lu bytes($)\n",(unsigned long)sizeof(a));
+	printf("Size of int: %lu bytes($)\n",(unsigned long)sizeof (b));
+	printf("Size of long-int: %lu bytes($)\n",(unsigned long)sizeof(c));
+	printf("Size of long-long-int: %lu bytes($)\n",(unsigned long)sizeof(d));
+	printf("Size of float: %lu bytes($)\n",(unsigned long)sizeof(f));
+	return 0;
 }
