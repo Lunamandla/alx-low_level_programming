@@ -10,8 +10,6 @@ int main(void)
 	long int c;
 	long long int d;
 	float f;
-
-	//Evaluating size of variable
 	
 	printf("Size of a char: %lu bytes(s)\n",(unsigned long)sizeof(a));
 	printf("Size of a int: %lu bytes(s)\n",(unsigned long)sizeof (b));
