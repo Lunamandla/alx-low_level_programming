@@ -12,6 +12,7 @@ int main(void)
 
 	for (a = 'a'; a <= 'z'; a++)
 	printf("%c", a);
+	
 	for (a = 'A'; a <= 'Z'; a++)
 	printf("%c", a);
 
