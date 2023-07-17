@@ -10,10 +10,7 @@ int main(void)
 {
 	char a;
 
-	for (a = 'a'; a <= 'z'; a++);
-	printf("%c\n", a);
-
-	for(a = 'A'; a <= 'Z'; a++);
-	printf("%c\n", a);
+	for (a = 'a'; a <= 'z'; a++; a = 'A'; a <= 'Z'; a++);
+	printf("%c \n", a);
 	return (0);
 }
