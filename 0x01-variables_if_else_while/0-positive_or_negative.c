@@ -8,11 +8,6 @@ int main(void)
 	/*if statement*/
 	if (n > 0){
 		printf("is positive 0\n");
-	}else if (n == 0){
-		printf("is zero 0\n");
-	}else (n < 0){
-		printf("%d is negative\n");
-	}
-	prinf("value of n :%d\n, n");
+	printf("value of n :%d\n",n);
 	return (0);
 }
