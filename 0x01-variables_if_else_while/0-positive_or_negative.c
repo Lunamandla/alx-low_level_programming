@@ -14,5 +14,5 @@ int main(void)
 		printf("%d is negative\n");
 	}
 	prinf("value of n :%d\n, n");
-}	return (0);
+	return (0);
 }
