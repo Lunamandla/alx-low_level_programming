@@ -14,11 +14,11 @@ int main(void)
 	{
 		if (i != 'e' && i != 'q')
 		{
-		printf(i);
+		putchar(i);
 		
 		}
 	}
-	printf("\n");
+	putchar("\n");
 
 	return (0);
 
