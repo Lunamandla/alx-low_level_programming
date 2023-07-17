@@ -8,15 +8,11 @@
  */
 int main(void)
 {
-	char a;
+	char i;
 
-	for (a = 'a'; a <= 'z'; a++);
-	{
+	for (i = 'a'; i <= 'z'; i++);
 	printf("%c \n", a);
-	}
-	for (a = 'A'; a<= 'Z'; A++);
-	{
-	printf("%c\n", a)
-	}
+	for (i = 'A'; i <= 'Z'; i++);
+	printf("%c\n", i)
 	return (0);
 }
