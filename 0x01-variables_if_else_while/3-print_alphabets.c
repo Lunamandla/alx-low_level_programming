@@ -10,7 +10,13 @@ int main(void)
 {
 	char a;
 
-	for (a = 'a'; a <= 'z'; a++; &""& a = 'A'; a <= 'Z'; a++);
+	for (a = 'a'; a <= 'z'; a++);
+	{
 	printf("%c \n", a);
+	}
+	for (a = 'A'; a<= 'Z'; A++);
+	{
+	printf("%c\n", a)
+	}
 	return (0);
 }
