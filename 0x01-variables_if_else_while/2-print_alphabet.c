@@ -9,7 +9,8 @@
 int main(void)
 {
 	char ch = 'a';
-	printf("Lowercase alphabet :\n");
+
+	printf("\n");
 	while (ch <= 'z')
 	{
 	printf("%c", ch);
