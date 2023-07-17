@@ -11,9 +11,9 @@ int main(void)
 	char ch = 'a';
 
 	printf("\n");
-	while (ch <='z')
+	while (ch <= 'z')
 	{
-	printf("%c", ch);
+	printf("%c ", ch);
 	ch++;
 	}
 	printf("\n");
