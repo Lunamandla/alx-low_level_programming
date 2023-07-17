@@ -12,8 +12,8 @@ int main(void)
 	printf("Lowercase alphabet :\n");
 	while (ch <= 'z')
 	{
-	printf("%c ", ch);
-	ch+;
+	printf("%c", ch);
+	ch++;
 	}
 	printf("\n");
 	return (0);
