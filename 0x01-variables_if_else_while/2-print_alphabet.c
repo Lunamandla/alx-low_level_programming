@@ -9,11 +9,11 @@
 int main(void)
 {
 	char ch = 'a';
-	printf("Lowercase alphabet :\n" );
+	printf("Lowercase alphabet :\n");
 	while (ch <= 'z')
 	{
 	printf("%c ", ch);
-	ch++;
+	ch+;
 	}
 	printf("\n");
 	return (0);
