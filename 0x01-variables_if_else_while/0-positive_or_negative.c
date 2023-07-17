@@ -4,7 +4,7 @@
  */
 int main(void)
 {
-	int (n = 0);
+	int n = 0;
 	/*if statement*/
 	if (n > 0)
 		printf("%d is positive\n");
