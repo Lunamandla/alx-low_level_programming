@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-	char i;
+	char a;
 
-	for (i = 'a'; i <= 'z'; i++)
-	printf("%c \n", a);
-	else (i = 'A'; i <= 'Z'; i++)
-	printf("%c \n", i)
+	for (a = 'a'; a <= 'z'; i++)
+	printf("%c\n", a);
+
+	for (a = 'A'; a <= 'Z'; i++)
+	printf("%c\n", a)
+
 	return (0);
 }
