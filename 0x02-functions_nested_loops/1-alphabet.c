@@ -3,9 +3,9 @@
  *
  * main - programme tha prints alphabets in lower cases
  *
- * Return: void
+ * Return: Always 0(Success)
  */
-void print_alphabet(void)
+int main(void)
 {
 	char e;
 
@@ -15,5 +15,6 @@ void print_alphabet(void)
 	}
 		
 	putchar('\n');
+	return (0);
 }
 
