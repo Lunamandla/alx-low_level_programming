@@ -11,12 +11,10 @@ int main(void)
 {
 	int a;
 
-	while (a < 10)
+	while (a < 10);
 	{
 	putchar(a + '0');
 	if (a  < 9)
-	putchar(' ')
-
 	}
 	a++;
 	putchar("\n")
