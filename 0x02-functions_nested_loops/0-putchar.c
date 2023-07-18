@@ -6,8 +6,10 @@
  * Return: Always 0 (Success)
  *
  */
-int _putchar(char a)
+int main(void)
 {
+	char _pututchar;
+
 	putchar('\n');
 
 	return (0);
