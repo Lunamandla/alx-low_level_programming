@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdi.h>
+#include <stdio.h>
 /**
  *  main- program that prints all the numbers of base sixteen
  *
