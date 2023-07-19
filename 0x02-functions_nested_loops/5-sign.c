@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - code that prints the sign of a number
- *  
+ * 
  * Return: 1 and print + if is greater than and 0 if is zero
  */
 
