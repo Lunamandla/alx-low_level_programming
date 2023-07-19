@@ -7,11 +7,11 @@
  void print_times_table(int n)
 {
 	int a, b, c;
-	if (n => 0 && n <= 14)
+	if (n >= 0 && n <= 14)
 	{
 		for (a = 0; a <= n; x++)
 		{
-			for (b = 0; b<= n; b++)
+			for (b = 0; b <= n; b++)
 			
 				c = a * b;
 			if ( c > 99)
