@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - function that print_times_table
+ * print_times_table - prints multiplication table upto parameter
  *
  * Return: Always 0 (Success)
  */
