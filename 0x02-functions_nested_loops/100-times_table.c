@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - function that prints time table
+ * main - function that print_time_table
  *
  * Return: Always 0 (Success)
  */
