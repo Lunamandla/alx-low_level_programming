@@ -22,7 +22,7 @@ int main(void)
 			hold3 = kr1 + kr2 + hold1;
 			kr1 = kr2, kr2 = hold3;
 			ak1 = ak2, ak2 = hold2;
-			printf("%lu%010lu", kr2, bk2);
+			printf("%lu%010lu", kr2, ak2);
 		}
 		else
 		{
