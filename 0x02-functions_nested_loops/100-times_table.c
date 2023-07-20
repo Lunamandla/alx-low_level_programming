@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_times_table - prints multiplication table upto parameter
- *
+ * print_times_table - prints multiplication table upto param
+ *@n: The number to be treated
  * Return: Always 0 (Success)
  */
 void print_times_table(int n)
@@ -32,7 +32,7 @@ void print_times_table(int n)
 				_putchar(((c / 10) % 10) + '0');
 				_putchar((c % 10) + '0');
 			}
-			else 
+			else
 			{
 				if (b != 0)
 			{
