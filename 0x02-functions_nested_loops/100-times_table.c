@@ -15,7 +15,7 @@
 			for (b = 0; b <= n; b++)
 			{
 				c = a * b;
-			if ( c > 99)
+			if (c > 99)
 			{
 				_putchar(',');
 				_putchar(32);
