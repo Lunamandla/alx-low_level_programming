@@ -20,11 +20,11 @@ int main(void)
 	{
 		a += b;
 		a = b - a;
-		Printf(", %ld", b);
+		printf(", %ld", b);
 	}
 	++i;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 	
 }
