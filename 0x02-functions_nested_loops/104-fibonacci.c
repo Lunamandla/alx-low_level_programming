@@ -26,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			hold2 = bk1 + bk2;
+			hold2 = ak1 + ak2;
 			ak1 = ak2, ak2 = hold2;
 			printf("%lu", ak2);
 		}
