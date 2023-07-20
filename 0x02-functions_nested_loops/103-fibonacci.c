@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - print the sum of even fibonacci numbers
- * less than 4000000
- * 
+ * less than 4000000 
  * Return: Nothing!
  */
 int main(void)
@@ -15,8 +14,8 @@ int main(void)
 		b += a;
 	if (b % 2 == 0)
 		sum += b;
-	
-	a = b -a;
+
+	a = b - a;
 	
 	++i;
 	}
