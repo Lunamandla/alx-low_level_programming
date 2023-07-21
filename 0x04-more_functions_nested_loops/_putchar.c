@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - writes the character c to
+ * main - writes the character c to standard output
+ * @c: The character to print
  *
  * Return: (Succuess) 1
  */
