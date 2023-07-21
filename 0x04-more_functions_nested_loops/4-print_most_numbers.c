@@ -2,7 +2,7 @@
 
 /**
  * prin_most_numbers - print numbers from 0 to 9
- * 
+ *
  * Description: print the number excluding 2 and 4
  *
  * Return: the numbers from 0 t 9
@@ -18,8 +18,8 @@ void print_most_numbers(void)
 			continue;
 		}
 		else
-		{
-			_putchar(a + '0');
-		}
-		_putchar('\n')
+	{
+	_putchar(a + '0');
+	}
+	_putchar('\n')
 }
