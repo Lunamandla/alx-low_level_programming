@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - checks if is the digit
  * @x: is the number to chk
