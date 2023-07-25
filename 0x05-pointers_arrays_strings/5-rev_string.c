@@ -5,7 +5,7 @@
  * rev_string - Reverse the string
  * @s: string to reverse
  *
- * Return: String in reverse 
+ * Return: String in reverse
  */
 
 void rev_string(char *s)
@@ -22,7 +22,7 @@ void rev_string(char *s)
 
 	for (d = 1; d < c; d++)
 	{
-		a++;
+		d++;
 	}
 
 	for (b = 0; b < (c / 2); b++)
