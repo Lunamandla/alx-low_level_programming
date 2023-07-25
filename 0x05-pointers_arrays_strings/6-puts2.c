@@ -1,5 +1,5 @@
 #include "main.h"
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * puts2 - print every char with a str
