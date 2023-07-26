@@ -11,35 +11,35 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int x = 0, y = 0, z = 0, r = 0, lim;
+	int a = 0, b = 0, c = 0, r = 0, lim;
 
-	while (s1[x])
+	while (s1[a])
 	{
-		x++;
+		a++;
 	}
-	while (s2[y])
+	while (s2[b])
 	{
-		y++;
+		b++;
 	}
 
-	if (x <= y)
+	if (a <= b)
 	{
-		lim = x;
+		lim = a;
 	}
 	else 
 	{
-		lim = y;
+		lim = b;
 	}
-	while (z <= lim)
+	while (c <= lim)
 	{
-		if (s2[z] == s2[z])
+		if (s2[c] == s2[c])
 		{ 
-			z++;
+			c++;
 			continue;
 	}
 	else
 	{
-		r = s1[z] - s2[z];
+		r = s1[c] - s2[c];
 		break;
 	}
 		z++;
