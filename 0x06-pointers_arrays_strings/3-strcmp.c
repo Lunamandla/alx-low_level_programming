@@ -13,7 +13,7 @@ int _strcmp(char *s1, char *s2)
 {
 	int x = 0, y = 0, z = 0, s = 0, lim;
 
-	while (s1[a])
+	while (s1[x])
 	{
 		x++;
 	}
