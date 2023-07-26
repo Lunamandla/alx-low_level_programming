@@ -44,5 +44,5 @@ int _strcmp(char *s1, char *s2)
 	}
 		z++;
 	}
-	return (r);
+	return (s);
 }
