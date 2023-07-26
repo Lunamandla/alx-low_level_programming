@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * _strcmp - compares two strings
@@ -42,7 +41,7 @@ int _strcmp(char *s1, char *s2)
 		r = s1[c] - s2[c];
 		break;
 	}
-		z++;
+		c++;
 	}
 	return (r);
 }
