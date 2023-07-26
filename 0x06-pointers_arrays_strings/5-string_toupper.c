@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * string_toupper -changes small letter to Capital letters
+ * string_toupper - changes small letter to Capital letters
  * @p: a string to mod
  *
  * Return: char var
@@ -14,7 +14,7 @@ char *string_toupper(char *p)
 
 	while (p[c])
 	{
-		if (p[c] >= 97 && p[c] <= 1220)
+		if (p[c] >= 97 && p[c] <= 122)
 		{
 			p[c] -= 32;
 		}
