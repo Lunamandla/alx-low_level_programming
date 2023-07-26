@@ -15,13 +15,13 @@ void reverse_array(int *a, int n)
 
 	p = a;
 
-	for (i = 0; i < n; i++)
+	for (i = 1; i < n; i++)
 	{
 		p++;
 	}
 	for (j = 0; j < i / 2; j++)
 	{
-	
+
 		aux = a[j];
 		a[j] = *p;
 		*p = aux;
