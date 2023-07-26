@@ -11,7 +11,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int x = 0, y = 0, z = 0, s = 0, lim;
+	int x = 0, y = 0, z = 0, r = 0, lim;
 
 	while (s1[x])
 	{
@@ -39,10 +39,10 @@ int _strcmp(char *s1, char *s2)
 	}
 	else
 	{
-		s = s1[z] - s2[z];
+		r = s1[z] - s2[z];
 		break;
 	}
 		z++;
 	}
-	return (s);
+	return (r);
 }
