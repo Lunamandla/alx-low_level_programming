@@ -18,10 +18,12 @@ char *cap_string(char *s)
 	while (s[b])
 	{
 		i = 0;
+	
 	while (i < cspc)
 	{
-		if ((b == 0 || s[b - 1] == spc[i] && (s[b] >= 97 && s[b] <= 122))
+		if ((b == 0 || s[b - 1] == spc[i]) && (s[b] >= 97 && s[b] <= 122))
 			s[b] -= 32;
+			
 			i++;
 	}
 	b++;
