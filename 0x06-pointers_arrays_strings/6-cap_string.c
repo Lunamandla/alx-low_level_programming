@@ -20,8 +20,8 @@ char *cap_string(char *s)
 		i = 0;
 	while (i < cspc)
 	{
-		if ((b == 0 || s[b - 1] == spc[i] && (s[b >= 97 && s[b <= 122))
-			s[a] -= 32;
+		if ((b == 0 || s[b - 1] == spc[i] && (s[b] >= 97 && s[b] <= 122))
+			s[b] -= 32;
 			i++;
 	}
 	b++;
