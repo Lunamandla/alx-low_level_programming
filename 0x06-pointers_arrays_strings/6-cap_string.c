@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * cap_string - Capitilizes all the letters
+ * cap_string - Capitalize all the letters
  * @s: string to capitalized
  *
  * Return: char value
@@ -12,7 +12,7 @@ char *cap_string(char *s)
 {
 	int a = 0, i;
 	int cspc = 13;
-	char spc[] = {32, '\t', '\n', 44, ";", 46, "!", "?", '"', "(", ")", "{", "}"};
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
 	while (s[a])
 	{
