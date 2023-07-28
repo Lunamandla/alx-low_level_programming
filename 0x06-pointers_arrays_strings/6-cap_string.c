@@ -1,28 +1,31 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * cap_string - Capitalize all the letters
- * @s: string to capitalized
- *
- * Return: char value
- */
-
+  * cap_string - ...
+  * @s: ...
+  *
+  * Return: char value
+  */
 char *cap_string(char *s)
 {
-	int i = 0;
+	int a = 0, i;
+	int cspc = 13;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	while (str[i])
+	while (s[a])
 	{
+		i = 0;
 
-	while (!(str[i] >= 'a' && str[i] <= 'z'))
+		while (i < cspc)
+		{
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+				s[a] -= 32;
 
-		i++;
-	if (str[i - 1] == ' ' || str[i - 1] == '\t' || str[i - 1] == '\n' || str[i - 1] == ',' || str[i - 1] == ';' || str[i - 1] == '.' || str[i - 1] == '!' || str[i -1] == '?' || str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')' || str[i - 1] == '{' || str[i - 1] == '}' || i == 0)
+			i++;
+		}
 
-		str[i] -= 32;
-
-		i++;
+		a++;
 	}
-	return (str);
+
+	return (s);
 }
