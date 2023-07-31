@@ -12,7 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int x = 0, y, t = 0;
 
-	while (accept[a])
+	while (accept[x])
 	{
 		y = 0;
 
