@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 #include "main"
 
 /**
@@ -8,7 +8,6 @@
  *
  * Return: nothing
  */
-
 void set_string(char **s, char *to)
 {
 	*s = to;
