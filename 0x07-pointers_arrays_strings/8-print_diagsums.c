@@ -3,7 +3,7 @@
 
 /**
  * print_diagsums - print the sum of 2 diagonals of square
- * 
+ *
  * @a: Matrix
  * @siz : Size
  *
