@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
 
 /**
  *  _sqrt - calculate square root
- * @n: numb34 to calculate the ^
+ * @n: number to calculate the  square root
  * @i: iterate number
  *
  * Return: natural ^2
