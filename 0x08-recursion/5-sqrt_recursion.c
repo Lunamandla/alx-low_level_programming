@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int _sqrt(int n,int i)
+int _sqrt(int n,int i);
 
 /**
  * _sqrt - calculate square root
