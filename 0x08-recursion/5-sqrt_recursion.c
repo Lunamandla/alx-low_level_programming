@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int _sqrt(int n,int i);
+int _sqrt(int n, int i);
 
 /**
  * _sqrt - calculate square root
@@ -9,16 +9,16 @@ int _sqrt(int n,int i);
  * @i: iterate number
  *
  * Return: natural ^2
- * */
+ */
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n,1));
+	return (_sqrt(n, 1));
 
 }
 
 /**
-  _sqrt - calculate square root
+ *  _sqrt - calculate square root
  * @n: numb34 to calculate the ^
  * @i: iterate number
  *
