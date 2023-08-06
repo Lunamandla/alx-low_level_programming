@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints all arguments that recieved 
@@ -16,5 +17,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%d\n", argv[i]);
 	}
-	return (0)
+	return (0);
 }
