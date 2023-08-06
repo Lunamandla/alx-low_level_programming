@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main - mutltiplies two numbers
@@ -21,7 +22,7 @@ int main(int argc, char *argv[])
 	}
 	else 
 	{
-		printf("ERROR\n");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
