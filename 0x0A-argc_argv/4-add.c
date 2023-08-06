@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		{
 		a = argv[i];
 
-		for (s = 0; k < strlen(a); s++)
+		for (s = 0; s < strlen(a); s++)
 		{
 		if (a[s] < 48 || a[s] > 57)
 		{
