@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - prints all arguments that recieved 
+ * main - prints all arguments that recieved
  * @argv: argument vector
  * @argc: argument count
  *
