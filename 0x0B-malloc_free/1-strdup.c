@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strdup - return a pointer to a allocated space in memory, whic contains a copy of a string.
+ * _strdup - prints and duplicate a strings 
  * @str: the string to be allocated
  *
  * Return: str
@@ -16,7 +16,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	return (NULL);
-	
+
 	while (str[i])
 	{
 		i++;
