@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strdup - prints and duplicate a strings 
+ * _strdup - prints and duplicate a strings
  * @str: the string to be allocated
  *
  * Return: str
