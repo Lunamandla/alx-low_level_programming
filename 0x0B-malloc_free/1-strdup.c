@@ -11,7 +11,7 @@
 
 char *_strdup(char *str)
 {
-	int x = 0, i = 1;
+	int z = 0, i = 1;
 	char *a;
 
 	if (str == NULL)
@@ -26,12 +26,12 @@ char *_strdup(char *str)
 
 	if (a == NULL)
 		return (NULL);
-	while (x < i)
+	while (z < i)
 	
-		a[x] = str[x];
+		a[z] = str[z];
 	x++;
 }
-	a[x] = '\0';
+	a[z] = '\0';
 	return (a);
 
 }
