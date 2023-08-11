@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * string_concat - function that concatenates two str
+ * string_nconcat - function that concatenates two str
  * @s1: first character
  * @s2: second character
  * @n: unsigned int
