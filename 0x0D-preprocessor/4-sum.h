@@ -1,6 +1,7 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FINCTION_LIKEMACRO_H
+#ifndef SUM_H
+#define SUM_H
 
-#define SUM(x , y) ((x) < (y) ? (x) : (Y))
+#define SUM(x , y) ((x) + (y))
+
 
 #endif
