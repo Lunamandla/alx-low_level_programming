@@ -1,11 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <0-object_like_macro.h>
+#ifndef OBECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
 
 #define SIZE 1024
 
-{
-	int main()
-
-	foo = (char *) malloc(SIZE);
-}
+#endif
