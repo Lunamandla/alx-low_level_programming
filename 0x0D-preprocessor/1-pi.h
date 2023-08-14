@@ -1,11 +1,7 @@
 #include <stdio.h>
-#ifndef PI 3.14
+#ifndef PI_H
 
-#define PI 3.14
+#define PI_H
 
-int main()
-{
-	double areaofcircle = PI * 10;
-	printf("Area = %lf, areaofcircle");
-}
+#define PI 3.14159265359
 #endif
