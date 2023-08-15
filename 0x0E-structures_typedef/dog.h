@@ -1,7 +1,10 @@
+#ifndef DOG_H
+#define DOG_H
+
 #include <stdio.h>
 #include <stdlib.h>
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	char *owner;
@@ -14,3 +17,4 @@ int main(void)
 
 	return (0);
 }
+#endif
