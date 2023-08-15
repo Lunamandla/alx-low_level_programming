@@ -1,16 +1,22 @@
 #include "dog.h"
 #include <stdlib.h>
 
-void init_dog(struct dog *p, char *name, float age, char *owner)
+struct dog;
 {
+	char *name;
+	float age;
+	char *owner;
 
-	if (p == NULL)
+};
 
-		p = malloc(sizeof(struct dog));
+int main(void)
+{
+	struct dog _dog;
+	struct dog *p;
 
-	p->name = name;
-	p->age = age;
-	p->owner = owner;
-	
+	p = &dog;
+	(*ptr).name = name;
+	(*ptr).age = age;
+	(*ptr).owner = owner;	
 	return (0);
 }
