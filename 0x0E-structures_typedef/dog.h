@@ -16,12 +16,12 @@ struct dog
 };
 
 /**
- * dog_p - Typedef of struct dog
+ * dog_t - Typedef of struct dog
  */
 
 void init(struct dog *d, char *name, float age, char *owner);
 	void print_dog(struct dog *d);
-	dog_p *new_dog(char *name, float age, char *owner);
-	void free_dog(dog_p *d);
+	dog_t *new_dog(char *name, float age, char *owner);
+	void free_dog(dog_t *d);
 #endif
 	
