@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "dog.h"
 
 struct dog
 {
@@ -22,5 +23,5 @@ int main(void)
 	my_dog.age = age;
 	my_dog.owner = owner;
 
-
+}
 #endif
