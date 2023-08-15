@@ -15,11 +15,12 @@ int main(void)
 {
 	struct dog my_dog;
 
-	my_dog.name = "Poopy";
-	my_dog.age = "3.5";
-	my_dog.owner = "Bob";
+	if (my_dog == NULL)
+		my_dog = malloc(sizeof(struct dog));
 
-	printf(("My name is %s, and I am %.1f :) - \n", my_dog.name, my_dog.age);
-	return (0);
-}
+	my_dog.name = name;
+	my_dog.age = age;
+	my_dog.owner = owner;
+
+
 #endif
