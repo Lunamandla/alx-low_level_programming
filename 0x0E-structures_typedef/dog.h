@@ -10,10 +10,6 @@ struct dog
 int main(void)
 {
 	struct dog my_dog;
-	
-	my_dog.name = "Poppy";
-	my_dog.owner = "Bob";
-	my_dog.age = "3.4";
 
 	return (0);
 }
