@@ -7,14 +7,19 @@
 struct dog
 {
 	char *name;
-	char *owner;
 	int age;
+	char *owner;
 };
 
 int main(void)
 {
 	struct dog my_dog;
 
+	my_dog.name = "Poopy";
+	my_dog.age = "3.14";
+	m_dog.owner = "Bob";
+
+	printf("My name is %s, and I am %f", my_dog.name, my_dog.age);
 	return (0);
 }
 #endif
