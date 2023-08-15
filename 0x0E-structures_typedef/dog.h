@@ -12,7 +12,7 @@ struct dog;
 int main(void)
 {
 	struct dog _dog;
-	struct dog *p;
+	struct dog *ptr;
 
 	p = &dog;
 	(*ptr).name = name;
