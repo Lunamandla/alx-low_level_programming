@@ -11,9 +11,11 @@ int main(void)
 {
 	struct dog dog;
 
-	dog.name = " ";
-	dog.owner = " ";
-	dog.age = " ";
+	dog.name = "Poppy";
+	dog.owner = "Bob";
+	dog.age = "3.4";
+
+	printf("My name is %s, and I am %f", dog.name, dog.age);
 
 	return (0);
 }
