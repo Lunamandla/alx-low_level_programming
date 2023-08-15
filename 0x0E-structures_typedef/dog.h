@@ -9,14 +9,16 @@ struct dog;
 
 };
 
-int main(void)
+struct dog *ptr(char *name, float age, char *owner)
 {
-	struct dog _dog;
 	struct dog *ptr;
 
-	p = &dog;
-	(*ptr).name = name;
-	(*ptr).age = age;
-	(*ptr).owner = owner;	
-	return (0);
+	ptr = malloc(sizeof(struct dog));
+	if (ptr == NULL)
+	return (NULL);
+
+	ptr->name = name;
+	ptr->age = age;
+	ptr->owner = owner;	
+	return (ptr);
 }
