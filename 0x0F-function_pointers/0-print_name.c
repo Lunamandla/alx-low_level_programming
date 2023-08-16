@@ -11,7 +11,7 @@ void print_name(char *name, void (*f)(char *));
 {
 	char n;
 
-	if (n==NULL)
+	if (n == NULL)
 		return (NULL);
 	printf("%s\n", name);
 }
