@@ -9,10 +9,7 @@
 
 void print_name(char *name, void (*f)(char *));
 {
-	char name;
-	
-	printf("Enter your name");
-	scanf("%s\n", &name);
-	printf("My name is: %s\n", name);
-	return (0);
+	if  (name  == NULL || f == NULL)
+		return (0);
+	f(name);
 }
