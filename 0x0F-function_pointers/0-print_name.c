@@ -2,7 +2,8 @@
 #include  <stdlib.h>
 #include "function_pointers.h"
 
-/** print_name - function that prints name
+/**
+ * print_name - function that prints name
  * @name: name of the user
  * @f: pointer to func
  * return: nothing
