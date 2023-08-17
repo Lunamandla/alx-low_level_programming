@@ -3,13 +3,15 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - return the allthe sum of its par
- * 
+ * main - return the allthe sum of its par
+ * @n: const variable
+ *
+ * Return: 0
  */
 
 int sum_them_all(const unsigned int n, ...)
 
-int main()
+int main(void)
 {
 	printf("Sum them all: %d\n", sum_them_all(20, 30, 40, 10);
 			return (0);
@@ -20,6 +22,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(list, n);
 	int i, sum = 0;
+	const unsigned int n;
 
 	if (n == 0)
 	
