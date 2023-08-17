@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdlib.h>
+
 /**
  * get_op_func - Selects the correct fun to perform
  *               the op asked by the user.
@@ -8,6 +9,7 @@
  * Return: A pointer to the function corresponding
  *         to the op given as a par.
  */
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
