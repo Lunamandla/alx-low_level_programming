@@ -1,7 +1,8 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
 
-/**
+/*
  * print_strngs - Prints strings, followed by a new line
  * @separator: str to be printed btwn the str
  * @n: number of strings 
