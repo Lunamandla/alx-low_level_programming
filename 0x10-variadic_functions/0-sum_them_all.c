@@ -13,7 +13,7 @@ int sum_them_all(const unsigned int n, ...)
 
 int main(void)
 {
-	printf("Sum them all: %d\n", sum_them_all(20, 30, 40, 10);
+	printf("Sum them all: %d\n", sum_them_all(20, 30, 40, 10));
 			return (0);
 }
 int sum_them_all(const unsigned int n, ...)
@@ -32,6 +32,6 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		sum += va_arg(list, int);
 	}
-	return (sum);
+	return sum;
 	va_end(list);
 }
