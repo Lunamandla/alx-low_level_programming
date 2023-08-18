@@ -2,9 +2,9 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - prints numbers followed by a new line 
+ * print_numbers - prints numbers followed by a new line
  * @n: number of int
- *
+ * @operator: the string to be printed btn the num
  * Return: 0
  */
 
