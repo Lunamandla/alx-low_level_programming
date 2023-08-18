@@ -18,9 +18,10 @@ int main(void)
 }
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list list;
+	va_list args;
 
-	va_start(list, n);
+	va_start(args, n);
+	
 	int i, sum = 0;
 	const unsigned int n;
 
@@ -33,5 +34,5 @@ int sum_them_all(const unsigned int n, ...)
 		sum += va_arg(list, int);
 	}
 	return sum;
-	va_end(list);
+	va_end(args);
 }
