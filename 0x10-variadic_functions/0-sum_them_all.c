@@ -4,9 +4,9 @@
 
 /**
  * main - return the allthe sum of its par
- * @n: const variable
+ * @n: num of arguments
  *
- * Return: 0
+ * Return: sum of of par
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -23,9 +23,10 @@ int sum_them_all(const unsigned int n, ...)
 	return (0);
 
 	for (i = 0; i <= n; i++)
-	{
+
 		sum += va_arg(args, int);
-	}
+
 	va_end(args);
+
 	return sum;
 }
