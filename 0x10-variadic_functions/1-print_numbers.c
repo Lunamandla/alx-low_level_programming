@@ -2,9 +2,9 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - prints numbers followed by a new line
+ * print_numbers - Prints numbers, followed by a new line
  * @n: number of int
- * @operator: the string to be printed btn the num
+ * @separator: the string to be printed btn the num
  * @...: A var num of num to be printed
  */
 
