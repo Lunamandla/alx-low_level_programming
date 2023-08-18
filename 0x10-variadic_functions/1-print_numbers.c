@@ -5,7 +5,7 @@
  * print_numbers - prints numbers followed by a new line
  * @n: number of int
  * @operator: the string to be printed btn the num
- * Return: 0
+ * ...: A num of var to be printed 
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
