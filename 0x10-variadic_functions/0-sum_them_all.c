@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- * main - return the allthe sum of its par
+ * sum_them_all - returns the all the sum of its par
  * @n: num of arguments
  *
  * Return: sum of of par
@@ -17,9 +17,9 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int i;
 
 	va_start(args, n);
-	
+
 	if (n == 0)
-	
+
 	return (0);
 
 	for (i = 0; i < n; i++)
@@ -28,5 +28,5 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_end(args);
 
-	return sum;
+	return (sum);
 }
