@@ -10,20 +10,13 @@
  */
 
 int sum_them_all(const unsigned int n, ...)
-
-int main(void)
-{
-	printf("Sum them all: %d\n", sum_them_all(20, 30, 40, 10));
-			return (0);
-}
-int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
 
 	va_start(args, n);
 	
-	int i, sum = 0;
-	const unsigned int n;
+	int  sum = 0;
+	unsigned int i;
 
 	if (n == 0)
 	
