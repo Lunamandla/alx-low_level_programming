@@ -2,10 +2,10 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-/*
+/**
  * print_strings - Prints strings, followed by a new line
  * @separator: str to be printed btwn the str
- * @n: number of strings 
+ * @n: number of strings
  *
  * Return: 0
  */
@@ -22,13 +22,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (a = 0; a < n; a++)
 	{
 		str = va_arg(args, char*);
-		
+
 		if (str)
 			printf("%s", str);
 		else
 			printf("(nil)");
 
-		if (a < n -1)
+		if (a < n - 1)
 			if (separator)
 				printf("%s", separator);
 	}
