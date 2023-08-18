@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * print_strngs - Prints strings, followed by a new line
+ * print_strings - Prints strings, followed by a new line
  * @separator: str to be printed btwn the str
  * @n: number of strings 
  *
@@ -26,7 +26,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (str)
 			printf("%s", str);
 		else
-			printf('(nil)');
+			printf("(nil)");
 
 		if (a < n -1)
 			if (separator)
@@ -34,6 +34,4 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 	printf("\n");
 	va_end(args);
-		
-		
 }
