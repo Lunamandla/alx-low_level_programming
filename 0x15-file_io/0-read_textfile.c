@@ -60,5 +60,4 @@ int main()
 		printf("Successfuly read and printed %zd letters from the file.\n", bytes_printed);
 	}
 	return 0;
-}
-		
+}		
